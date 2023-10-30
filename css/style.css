@@ -71,6 +71,11 @@
     color: whitesmoke;
 }
 
+/*formulario ticket*/
+.fluid{
+    margin-top: 60px;
+}
+
 /*pie de pagina*/
 .footer{
     display: flex;
