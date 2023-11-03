@@ -31,7 +31,7 @@
     </nav>
     <div class="container fluid d-flex justify-content-center">
       <div class="card-group "  style="width: 46rem;">
-        <div class="card border border-primary text-center mx-1">
+        <div class="card border border-primary text-center mx-1" id="card1">
           <div class="card-body">
             <p class="card-text h4">Estudiante</p>
             <p class="card-text">Tiene un descuento</p>
@@ -39,7 +39,7 @@
             <p class="card-text text-muted"> <small> *presentar documentación</small></p>
           </div>
         </div>
-        <div class="card border border-success text-center mx-1" >
+        <div class="card border border-success text-center mx-1" id="card2" >
           <div class="card-body">
             <p class="card-text h4">Trainee</p>
             <p class="card-text">Tiene un descuento</p>
@@ -47,7 +47,7 @@
             <p class="card-text text-muted"><small> *presentar documentación</small></p>
           </div>
         </div>
-        <div class="card border border-warning text-center mx-1" >
+        <div class="card border border-warning text-center mx-1" id="card3" >
           <div class="card-body">
             <p class="card-text h4">Junior</p>
             <p class="card-text">Tiene un descuento</p>
@@ -72,15 +72,15 @@
             </div>    
             <div class="col-md-6">
                 <label for="inputCantidad" class="form-label">Cantidad</label>
-                <input type="text" class="form-control" id="inputCantidad" placeholder="cantidad">
+                <input type="text" class="form-control" id="inputCantidad" value="1">
             </div>
             <div class="col-md-6">
                 <label for="inputCategoria" class="form-label">Categoría</label>
                 <select id="inputCategoria" class="form-select" >
-                    <option selected>Estudiante</option>
+                    <option>Estudiante</option>
                     <option>Trainee</option>
                     <option>Junior</option>
-                    <option>General</option>
+                    <option selected>General</option>
                 </select>
             </div>      
             <div class="alert alert-primary " role="alert" >
